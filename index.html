@@ -6,32 +6,18 @@
     <title>南區即時交通資訊系統 Southern District Instant Traffic System</title>
     <link rel="icon" type="image/png" href="https://hkabdtunnel.github.io/hkabdtunnel/favicon.png">
     <style>
-      html, body, #map-canvas {
+      html, body {
         height: 320px;
 	width: 100%;
         margin: 0px;
         padding: 0px
       }
     </style>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-    <script>
-function initialize() {
-  var myLatlng = new google.maps.LatLng(22.270113, 114.180408);
-  var mapOptions = {
-    zoom: 13,
-    center: myLatlng
-  }
-  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-  var trafficLayer = new google.maps.TrafficLayer();
-  trafficLayer.setMap(map);
-}
-google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
   </head>
   <body>
 	<p><b><a href="javascript:history.go(0)">重新整理 Click to refresh</a></b></p>
 	<p><b>Google Traffic Maps 路況地圖</b></p>
-	<div id="map-canvas"></div>
+	<iframe src="https://cdn.rawgit.com/adrianiainlam/hkabdtunnel/ca3612cc/gmaps.html"></iframe>
 	<p>路況顏色解說：綠色 = 暢通，橙色 = 慢車，鮮紅色 = 擠塞，啡紅色 = 嚴重擠塞</p>
 	<p>Explanation on colour: Green = smooth; Orange = slightly slow; Light red = somehow congested; Dark red = seriously congested</p>
 	<br>
