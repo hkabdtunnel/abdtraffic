@@ -13,13 +13,13 @@ Why we need this site??
 
 Aberdeen Tunnel is suffering from severe traffic congestion from time to time. So, there is a need for public transport passengers to have a glance at the traffic condition before choosing their means of transport to avoid unnecessary stuck inside the tunnel.
 
-2) Inadequate information about time of bus arrival / departure
+2) Inadequate information about the time of bus arrival / departure
 
-Southern District residents are having a new railway (South Island Line) commenced in December 28, 2016. However, the price for this new railway is large-scale reduction of bus headways. In Hong Kong, up to July 2017, only Kowloon Motor Bus (1933) Co. Ltd. are providing Estimated Time of Arrival (hereinafter referred to as "ETA") service on ALL of their regular routes.
+Southern District residents are having a new railway (South Island Line) commenced in December 28, 2016. However, the price for this new railway is large-scale reduction of bus headways.
 
-The major bus companies for Hong Kong Island (Citybus & New World First Bus) are still having their ETA system under development. Only a small number of routes have the ETA service, which covers nearly NONE of the routes which have to undergo service reduction. 
+In Hong Kong, up to July 2017, only Kowloon Motor Bus (1933) Co. Ltd. are providing Estimated Time of Arrival (hereinafter referred to as "ETA") service on ALL of their regular routes. The major bus companies for Hong Kong Island (Citybus & New World First Bus) are still having their ETA system under development. Only a small number of routes have the ETA service, which covers nearly NONE of the routes which have to undergo service reduction. 
 
-As a result, as to reduce the inconvenience to the passengers of those bus routes, detailed departure timetables are also posted on this site for easy access.
+As a result, we hope by posting detailed bus departure timetable on this site, passengers of buses do not need to wait "endlessly" at the bus stop for a bus ride. If we fail to do so, passengers may not want to take buses anymore, which may result in drastic reduction of bus passengers, hampering the sustainable development of different means of transport and badly affect the quality of life of residents. 
 
 3) Guide in choosing driving route
 
