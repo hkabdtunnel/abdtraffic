@@ -26,3 +26,6 @@ As a result, we hope by posting detailed bus departure timetable on this site, p
 We hope this site can serve as a guide to drivers to choose their way to/from Southern District with respect to the traffic condition. When Aberdeen Tunnel is congested, they can choose to drive via alternative routes such as Nam Fung Road or Pokfulam Road.
 
 Using "Aberdeen Tunnel at a glance": https://hkabdtunnel.github.io
+
+Site briefing updated by WH @ Southern District Transport
+Find us on facebook: https://fb.com/southtransport
