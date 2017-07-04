@@ -11,7 +11,7 @@ Why we need this site??
 
 1) Traffic congestion of Aberdeen Tunnel
 
-Aberdeen Tunnel is suffering from severe traffic congestion from time to time. So, there is a need for public transport passengers to have a glance at the traffic condition before travelling through the tunnel to avoid unnecessary stuck inside the tunnel.
+Aberdeen Tunnel is suffering from severe traffic congestion from time to time. So, there is a need for public transport passengers to have a glance at the traffic condition before choosing their means of transport to avoid unnecessary stuck inside the tunnel.
 
 2) Inadequate information about time of bus arrival / departure
 
