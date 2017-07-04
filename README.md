@@ -19,7 +19,7 @@ Southern District residents are having a new railway (South Island Line) commenc
 
 In Hong Kong, up to July 2017, only Kowloon Motor Bus (1933) Co. Ltd. are providing Estimated Time of Arrival (hereinafter referred to as "ETA") service on ALL of their regular routes. The major bus companies for Hong Kong Island (Citybus & New World First Bus) are still having their ETA system under development. Only a small number of routes have the ETA service, which covers nearly NONE of the routes which have to undergo service reduction. 
 
-As a result, we hope by posting detailed bus departure timetable on this site, passengers of buses do not need to wait "endlessly" at the bus stop for a bus ride. If we fail to do so, passengers may not want to take buses anymore, which may result in drastic reduction of bus passengers, hampering the sustainable development of different means of transport and badly affect the quality of life of residents. 
+As a result, we hope by posting detailed bus departure timetable on this site, passengers who wish to take buses do not need to wait "endlessly" at the bus stop for a bus ride. If we fail to do so, passengers may not want to take buses anymore, which may result in drastic reduction of bus passengers, hampering the sustainable development of different means of transport and badly affect the quality of life of residents. 
 
 3) Guide in choosing driving route
 
