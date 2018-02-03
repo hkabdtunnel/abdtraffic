@@ -37,6 +37,9 @@
   ga('send', 'pageview');
 </script>
 
+<!-- Packages -->
+<script src="http://cdn.date-fns.org/v1.9.0/date_fns.min.js"></script>
+
   </head>
   <body>
     <p><b><a href="https://play.google.com/store/apps/details?id=com.southtransport.southtransport_abt_app&hl=zh_HK">下載香隧即時睇 Android 應用程式 Download ABT At A Glance Android App</a></b></p>
@@ -51,6 +54,9 @@
     <iframe src="https://cdn.rawgit.com/hkabdtunnel/hkabdtunnel/master/gmaps.html" style="width: 90%; height: 340px" frameborder="0"></iframe>
     <img src="https://hkabdtunnel.github.io/hkabdtunnel/gmap-indication.png">
     <br>
+
+<!-- Travel Time -->
+    <p><b>甄沾記大廈往立德里 <span id="updateTime"></span></b></p>
 
 <!-- CHT Time -->
 
@@ -86,6 +92,9 @@
     <p><a href="https://facebook.com/southtransport/">南區交通專頁 Southern District Transport Facebook Page</a></p>
     <p>========================================</p>
     <p>最後更新 Last Update: 27/1/2018 每兩分鐘自動更新 Updates automatically every 2 minutes</p>
-  </body>
 
+    <script src="/travelTime/travelTime.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0qbGK41NNwMumkDdkwHcWNBLUJprD2J4&callback=initMap"
+    type="text/javascript"></script>
+  </body>
 </html>
