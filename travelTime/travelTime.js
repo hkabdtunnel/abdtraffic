@@ -18,7 +18,7 @@ function initMap() {
     if (status == 'OK') {
       var travelTimeSeconds = result.routes[0].legs[0].duration_in_traffic.value;
       var minutes = Math.floor(travelTimeSeconds / 60);
-      updateTimeElem.innerText = "(" + format(currentDate, "HH:mm") + " 更新) - " + minutes + "分鐘"
+      updateTimeElem.textContent = "(" + format(currentDate, "HH:mm") + " 更新 Update) - " + minutes + "minute(s) 分鐘"
     } else {
       console.error(status)
     }
