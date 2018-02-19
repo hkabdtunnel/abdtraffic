@@ -40,10 +40,18 @@
 <!-- Packages -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/1.29.0/date_fns.min.js"></script>
 
-  </head>
-  <body>
+</head>
+<body>
+
+<!-- Time -->
+
+<script src="travelTime/timeNow.js"></script>
+
+<!-- Main -->
+
     <p><b><a href="https://play.google.com/store/apps/details?id=com.southtransport.southtransport_abt_app&hl=zh_HK">下載香隧即時睇 Android 應用 | Android App (Chinese only)</a></b></p>
     <p><b><a href="https://hkabdtunnel.github.io/schedules/list.html">巴士編定開車時間表 | Bus Detailed schedules</a></b></p>
+
 <!-- Maps -->
 
     <p><b>Google Traffic Maps 路況地圖</b></p>
@@ -53,8 +61,12 @@
 
 <!-- Travel Time -->
     <p>========================================</p>
-    <p><b>甄沾記大廈往立德里 Yan's Tower to Wan Chai Lap Tak Lane</b></p>
-    <p><b><span id="updateTime"></span></b></p>
+    <table style="width:100%">
+    <TABLE BGCOLOR = #FFFFFF BORDER = 1>
+    <th colspan="2">更新時間 Update Time : <script>document.write(h);</script>:<script>document.write(pad2(m));</script></th>
+    <tr><td><center><b>車程 Journey</b></center></td><td><center><b>分鐘 Minutes</b></center></td></tr>
+    <tr><td><center><b>甄沾記大廈往立德里</b></center><center><b>Yan's Tower to Wan Chai Lap Tak Lane</b></center></td><td><center><b><font size="7"><span id="updateTime"></span></b></center></font></td></tr>
+    </table>
 
 <!-- CHT Time -->
     <p>========================================</p>
@@ -71,12 +83,6 @@
     <tr><td>
     <img src="http://tdcctv.data.one.gov.hk/H210F.JPG">
     <p>香港仔隧道灣仔入口，圖片每兩分鐘更新一次<br>Aberdeen Tunnel Wan Chai Entrance, updates every 2 minutes</p>
-    </td></tr><tr><td>
-    <img src="http://tdcctv.data.one.gov.hk/H421F.JPG">
-    <p>香港仔隧道香港仔入口，圖片每兩分鐘更新一次<br>Aberdeen Tunnel Aberdeen Entrance, updates every 2 minutes</p>
-    </td></tr><tr><td>
-    <img src="http://tdcctv.data.one.gov.hk/H401F.JPG">
-    <p>黃竹坑道近香港仔隧道，圖片每兩分鐘更新一次<br>Wong Chuk Hang Rd. near Aberdeen Tunnel, updates every 2 minutes</p>
     </td></tr>
     </table>
 
@@ -96,8 +102,11 @@
     <p>========================================</p>
     <p>最後更新 Last Update: 3/2/2018 週年更新 - 加入黃竹坑往灣仔行車時間 Anniversary update: Added Wong Chuk Hang to Wan Chai travelling time.</p>
 
-    <script src="/hkabdtunnel/travelTime/travelTime.js"></script>
+<!-- TravelTime Script -->
+
+    <script src="travelTime/travelTime.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0qbGK41NNwMumkDdkwHcWNBLUJprD2J4&callback=initMap"
     type="text/javascript"></script>
+
   </body>
 </html>
