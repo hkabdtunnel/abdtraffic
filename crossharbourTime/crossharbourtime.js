@@ -5,7 +5,7 @@ function getcrossharbourtime() {
 
         // Check if the XMLHttpRequest object has a "withCredentials" property.
         // "withCredentials" only exists on XMLHTTPRequest2 objects.
-        xhr.open("GET", url, false);
+        xhr.open("GET", url, true);
 		document.write("Success\n");
 
     } else if (typeof XDomainRequest != "undefined") {
