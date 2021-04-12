@@ -1,5 +1,5 @@
 function getcrossharbourtime() {
-	url = "https://api.allorigins.win/get?url=https://resource.data.one.gov.hk/td/journeytime.xml";
+	url = "https://yacdn.org/proxy/https://resource.data.one.gov.hk/td/journeytime.xml";
     var xhr = new XMLHttpRequest();
     if ("withCredentials" in xhr) {
 
