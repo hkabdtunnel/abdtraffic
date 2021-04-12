@@ -6,7 +6,7 @@ function getcrossharbourtime() {
         // Check if the XMLHttpRequest object has a "withCredentials" property.
         // "withCredentials" only exists on XMLHTTPRequest2 objects.
         xhr.open("GET", url, false);
-	document.write("Success");
+		document.write("Success\n");
 
     } else if (typeof XDomainRequest != "undefined") {
 
@@ -14,17 +14,18 @@ function getcrossharbourtime() {
         // XDomainRequest only exists in IE, and is IE's way of making CORS requests.
         xhr = new XDomainRequest();
         xhr.open("GET", url);
-	document.write("Success");
+		document.write("Success2\n");
 
     } else {
 
         // Otherwise, CORS is not supported by the browser.
         xhr = null;
-	document.write("F");
+		document.write("Failed\n");
 
     }
-	//xhr.open("GET","marks.xml",false);
+	
 	xhr.send();
+	document.write("1\n");
 	xmlDoc=xhr.responseXML;
 	document.write("<table border='1' width='320px' style='font-size:25px;'>");
 	
