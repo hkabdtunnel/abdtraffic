@@ -1,12 +1,11 @@
 function getcrossharbourtime() {
-	url = "http://resource.data.one.gov.hk/td/journeytime.xml";
+	url = "https://api.allorigins.win/get?url=https://resource.data.one.gov.hk/td/journeytime.xml";
     var xhr = new XMLHttpRequest();
     if ("withCredentials" in xhr) {
 
         // Check if the XMLHttpRequest object has a "withCredentials" property.
         // "withCredentials" only exists on XMLHTTPRequest2 objects.
-        xhr.open("GET", url, true);
-		//document.write("Success\n"); passed
+        xhr.open("GET", url, false);
 
     } else if (typeof XDomainRequest != "undefined") {
 
@@ -14,30 +13,27 @@ function getcrossharbourtime() {
         // XDomainRequest only exists in IE, and is IE's way of making CORS requests.
         xhr = new XDomainRequest();
         xhr.open("GET", url);
-		//document.write("Success2\n"); not passed
 
     } else {
 
         // Otherwise, CORS is not supported by the browser.
         xhr = null;
-		// document.write("Failed\n"); not passed
 
     }
-	
+	//xhr.open("GET","marks.xml",false);
 	xhr.send();
-	// document.write("1\n"); passed
 	xmlDoc=xhr.responseXML;
 	document.write("<table border='1' width='320px' style='font-size:25px;'>");
 	
 	// this line will write table tag on html document
 	
-	document.write("<tr><th>經 Via</th><th>分鐘 Minutes</th></tr>"); // passed, however wrong location
+	document.write("<tr><th>經 Via</th><th>分鐘 Minutes</th></tr>");
 	var x=xmlDoc.getElementsByTagName("LOCATION_ID");
 	
 	// This line will store array of object in variable x
 	var tunnel;
 	for (i=0;i<x.length;i++) {
-		document.write("For loop entered");
+		
 		if (xmlDoc.getElementsByTagName("LOCATION_ID")[i].childNodes[0].nodeValue == 'H2'){
 			switch(xmlDoc.getElementsByTagName("DESTINATION_ID")[i].childNodes[0].nodeValue) {
 				case 'CH':
