@@ -1,5 +1,5 @@
 function getcrossharbourtime() {
-	url = "https://cors-anywhere.herokuapp.com/http://resource.data.one.gov.hk/td/journeytime.xml";
+	url = "http://resource.data.one.gov.hk/td/journeytime.xml";
     var xhr = new XMLHttpRequest();
     if ("withCredentials" in xhr) {
 
