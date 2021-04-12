@@ -1,26 +1,9 @@
 function getcrossharbourtime() {
 	url = "http://resource.data.one.gov.hk/td/journeytime.xml";
-    var xhr = new XMLHttpRequest();
-    if ("withCredentials" in xhr) {
-
-        // Check if the XMLHttpRequest object has a "withCredentials" property.
-        // "withCredentials" only exists on XMLHTTPRequest2 objects.
-        xhr.open("GET", url, false);
-
-    } else if (typeof XDomainRequest != "undefined") {
-
-        // Otherwise, check if XDomainRequest.
-        // XDomainRequest only exists in IE, and is IE's way of making CORS requests.
-        xhr = new XDomainRequest();
-        xhr.open("GET", url);
-
-    } else {
-
-        // Otherwise, CORS is not supported by the browser.
-        xhr = null;
-
-    }
-	//xhr.open("GET","marks.xml",false);
+    	var xhr = new XMLHttpRequest();
+	
+	xhr.open('GET', url);
+    
 	xhr.send();
 	xmlDoc=xhr.responseXML;
 	document.write("<table border='1' width='320px' style='font-size:25px;'>");
